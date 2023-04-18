@@ -1,0 +1,78 @@
+body{
+  width: 100vw;
+  height: 100vh;
+
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.dark-img {
+  width: 30px;
+}
+.option {
+  border: 1px solid black;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  width: 100px;
+  border-radius: 20px;
+}
+
+label {
+  padding-left: 10px;
+}
+
+
+.bg-white {
+  background-color: white;
+  color: black;
+}
+
+.bg-black {
+  background-color: black;
+  color: white;
+}
+
+
+.imagem-div {
+  background-image: url(./banner-barbearia.jpg);
+  height: 300px;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+}
+
+.texto-div {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.texto-div h1, h3, p {
+  padding-top: 30px;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-black {
+  background-color: rgb(37, 37, 37);
+}
+
+#body {
+  width: 100vw;
+  height: 100vh;
+}
